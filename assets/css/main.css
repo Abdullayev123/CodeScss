@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #212529;
+  height: fit-content;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+}
+nav .nav_Logo {
+  font-size: 18px;
+}
+nav .nav_Logo a {
+  color: #fff;
+}
+nav .nav_Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+nav .nav_Links a {
+  color: rgba(255, 255, 255, 0.7725490196);
+  font-weight: 600;
+  font-size: 12px;
+  transition: color 0.2s linear;
+}
+nav .nav_Links a:hover {
+  color: #fff;
+}
+
+.hero_Section {
+  display: flex;
+  align-items: center;
+  padding-block: 60px;
+}
+.hero_Section .hero_text {
+  padding: 40px;
+}
+.hero_Section .hero_text h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero_Section .hero_text p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hero_Section .hero_text .hero_button {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.hero_Section .hero_text .hero_button .transparent-bg {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  cursor: pointer;
+}
+.hero_Section .hero_text .hero_button .transparent-bg:hover {
+  background-color: #000 !important;
+  border: 1px solid #000 !important;
+}
+.hero_Section .hero_text .hero_button .hero_text_button {
+  padding: 10px 15px;
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  width: fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero_Section .hero_text .hero_button .hero_text_button:hover {
+  background-color: transparent;
+}
+.hero_Section .hero_text .hero_button .hero_text_button p {
+  color: #fff;
+}
+.hero_Section .hero_Image {
+  padding: 40px;
+}
+
+footer {
+  width: 100%;
+  background-color: #212529;
+  margin-top: 20px;
+}
+footer .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-block: 15px;
+}
+footer .container .footer_container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 14px;
+}
+footer .container .footer_container a {
+  text-decoration: underline;
+  color: #fff;
+  font-size: 12px;
+}
+footer .container .footer_container span {
+  margin-inline: 10px;
+}/*# sourceMappingURL=main.css.map */
